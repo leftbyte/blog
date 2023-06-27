@@ -59,9 +59,8 @@ pinned: true
    `gr.Interface(...).launch(share=True)`, which I simply changed to
    false.
 
-The app was then deployed and you can play around with it here:
-
-  https://huggingface.co/spaces/leftbyte/hillbilly-chat
+The app was then deployed and you can now play around with the
+[hillbilly-chat](https://huggingface.co/spaces/leftbyte/hillbilly-chat)!
 
 # Talking about it
 
