@@ -1,5 +1,5 @@
 ---
-title: Welcome to my blog
+title: Dropping some blogs
 ---
 
 My private blog where I'm journalling my current ML learnings. 
