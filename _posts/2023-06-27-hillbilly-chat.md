@@ -13,13 +13,13 @@ States), so I thought a translator to "hillbilly speak" would be fun.
 
 I looked at some examples and cobbled together something in a few
 minutes that used OpenAI's gpt-3.5-turbo model. The
-(API)[https://platform.openai.com/docs/api-reference/introduction] is
+[API](https://platform.openai.com/docs/api-reference/introduction) is
 fairly straight forward and it's interesting that all the state is
 saved on the client, but it seems like the future bottleneck will be
 the memory limit of the messages context. After configuring the OpenAI
 API key and dealing with the pricing plan and billing, I was able to
 share the demo quickly to my friends using
-(gradio)[https://gradio.app/quickstart/].
+[gradio](https://gradio.app/quickstart).
 
 # Publishing to the Internet
 
@@ -38,9 +38,10 @@ HuggingFace space. I ran into two issues:
 1. README.md Configuration error: The HuggingFace Space build failed
 and said that there was a README.md configuration error. With some
 quick Googling about the issue I saw that I needed some frontmatter as
-described in the (HuggingFace Spaces Configuration
-reference)[https://huggingface.co/docs/hub/spaces-config-reference].
+described in the [HuggingFace Spaces Configuration
+reference](https://huggingface.co/docs/hub/spaces-config-reference).
 
+```
 ---
 title: hillbilly-chat
 app_file: billy.py
@@ -51,6 +52,7 @@ colorFrom: orange
 colorTo: brown
 pinned: true
 ---
+```
 
 2. The build failed again due to "RuntimeError: Share is not supported
    when you are in Spaces". Looking at my app, I saw that I had
