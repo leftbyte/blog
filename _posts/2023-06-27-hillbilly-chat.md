@@ -66,9 +66,8 @@ The app was then deployed and you can play around with it here:
 # Talking about it
 
 I'm in the process of taking Jeremy Howard's excellent fast.ai course
-in which he espouses the value of talking about your work. This is
-exactly why I'm blogging about this now. My last step in this little
-project was to create a blogging site and post to talk about my fun
-hillbilly-chat project. I don't expect to get anybody reading this,
-but it's useful to shed that fear of showing the world what you've
-done.
+in which he espouses the value of talking about your work. This is why
+I'm blogging about this now. My last step in this little project was
+to create a blogging site and post to talk about my fun hillbilly-chat
+project. I don't expect to get anybody reading this, but it's useful
+to shed that fear of showing the world what you've done.
