@@ -38,16 +38,16 @@ that was able to distinguish between sweet and savory foods from a
 picture. I then published that model to a hugging face space:
 [sweetOrSavory](https://huggingface.co/spaces/leftbyte/sweetOrSavory)
 
-I trained this with about ~500 examples of sweet and savory foods I
-collected from Google image search. I got the images using these
-search terms
+I trained this with about ~500 images of sweet and savory foods I
+collected from a web search using these search terms:
 
 ```
 sweet_foods = ['cakes', 'cookies', 'ice cream', 'pies', 'puddings', 'candy', 'soda', 'dessert', 'fruit']
 savory_foods = ['dinner food', 'lunch food', 'sandwiches', 'pizza', 'casseroles', 'chips', 'crisps', 'fast food', 'pasta meals']
 ```
 
-I was able to get over 95% accuracy with the training data using a
-20:80 validation/training split, which I thought was surprising. It
-was also very simple to export and load up the model into an app on
-HuggingFace.
+I started with the resnet18 model with a 20:80 validation/training
+split.  The fine tuning took about 5 minutes and resulted in ~95%
+accuracy. It was also very simple to export and load up the model into
+an app on HuggingFace. Overall, this first dip into fast.ai's way of
+doing machine learning was very fun and rewarding.
