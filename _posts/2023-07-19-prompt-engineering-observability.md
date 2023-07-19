@@ -86,10 +86,10 @@ how to use LLMs effectively.
 Start simple - if results are lacking, trying breaking up into
 subproblems or gradually moving up the ladder of complexity.
   
-1. Prompting             \___ prompt engineering
-1. Few-shot prompting    /
-1. Retrieval + prompting \____tools like langchain, llamaindex, etc.
-1. Iterative refinement  /
+1. Prompting (i.e. prompt engineering)
+1. Few-shot prompting i.e. prompt engineering)
+1. Retrieval + prompting (using tools like langchain, llamaindex, etc.)
+1. Iterative refinement (using tools like langchain, llamaindex, etc.)
 1. Fine-tuning a hosted model
 1. Fine-tuning an OSS model
 1. Training an OSS model from scratch
