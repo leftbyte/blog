@@ -77,10 +77,10 @@ to shed that fear of showing the world what you've done.
 # Next steps
 
 I tried changing the prompts so that more regional dialects and
-colloquialisms would be returned, but it seems like the only responses
+colloquialisms would be returned but it seems like the only responses
 are from a "United States Southern" region, which starts to get stale
 quickly. My assumption is that the reason for this regionality is
-because the corpus of data sucked into GPT-3.5 is very US centric and
+because the corpus of data ingested by GPT-3.5 is very US centric and
 doesn't discern between regional differences. The ideas to try to fix this
 are to 1. create my own vector database with a documents from different regions
 (books, articles, cartoons, etc) and feed that as context prompts into ChatGPT or
