@@ -78,3 +78,19 @@ inaccuracy then this method can be applied. However, if the results
 aren't 100% accurate then the loss of user confidence and tarnishing
 of the brand far outweighs the cost of building a robust search and
 retrieval system for a knowledge base.
+
+In the Q&A section, they referenced Travis Fisher's tweet on how to
+improve your application. I looked that up and here's his advice on
+how to use LLMs effectively.
+
+Start simple - if results are lacking, trying breaking up into
+subproblems or gradually moving up the ladder of complexity.
+  
+1. Prompting (i.e. prompt engineering)
+1. Few-shot prompting i.e. prompt engineering)
+1. Retrieval + prompting (using tools like langchain, llamaindex, etc.)
+1. Iterative refinement (using tools like langchain, llamaindex, etc.)
+1. Fine-tuning a hosted model
+1. Fine-tuning an OSS model
+1. Training an OSS model from scratch
+1. Building a custom model from scratch
